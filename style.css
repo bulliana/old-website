@@ -154,13 +154,13 @@ ul > li{
   background-color: lightgreen;
 }
 .slider.html{
-  width: 70%;
+  width: 90%;
 }
 .slider.css{
-  width: 70%;
+  width: 90%;
 }
 .slider.js{
-  width: 50%;
+  width: 70%;
 }
 .slider.angular{
   width: 20%;
@@ -168,7 +168,13 @@ ul > li{
 .slider.react{
   width: 50%;
 }
+.slider.relay{
+  width: 20%;
+}
 .slider.git{
+  width: 80%;
+}
+.slider.ramda{
   width: 60%;
 }
 .slider.responsive{
@@ -190,7 +196,7 @@ ul > li{
   width: 10%;
 }
 .slider.highcharts{
-  width: 20%;
+  width: 80%;
 }
 .slider.wp{
   width: 30%;
@@ -213,7 +219,7 @@ ul > li{
 
 .question{
   font-size: 50px;
-  line-height: 130px;
+  line-height: 80px;
   color: lightslategray;
   font-family: Helvetica, serif;
   font-weight: 200;
