@@ -40,11 +40,18 @@ h4{
     background-size: 200px 200px;
     padding-top: 200px;
     height: 200px;
+    width: 200px;
 }
 .short_info{
   font-family: Helvetica, serif;
   font-size: 15px;
   color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.short_info div{
+  margin: 20px;
 }
 .short_info h2{
   font-size: 20px !important;
@@ -304,23 +311,17 @@ ul > li{
 }
 
 .short_info_mobile.icon{
-  display:none;
+  display: none;
 }
 
 /* big screens */
 @media all and (min-width: 950px){
   .short_info .left{
-    border-left: 1px solid #e4e4e4;
-    border-top: 1px solid #e4e4e4;
-    border-bottom: 1px solid #e4e4e4;
     height: 240px;
     padding: 20px;
     min-width: 270px;
   }
   .short_info .right{
-    border-right: 1px solid #e4e4e4;
-    border-top: 1px solid #e4e4e4;
-    border-bottom: 1px solid #e4e4e4;
     height: 240px;
     padding: 20px;
     min-width: 270px;
@@ -332,9 +333,9 @@ ul > li{
     display: none;
   }
   .short_info_mobile.icon{
-    display:block;
-    text-align: center;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media all and (max-width: 950px){
@@ -384,7 +385,5 @@ ul > li{
     .short_info{
       height: 240px;
       padding: 20px;
-      border-top: 1px solid #e4e4e4;
-      border-bottom: 1px solid #e4e4e4;
     }
 }
