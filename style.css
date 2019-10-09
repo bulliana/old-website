@@ -1,48 +1,48 @@
-body > div{
-  overflow-x:hidden;
+body > div {
+  overflow-x: hidden;
 }
-h1{
-    font-family: Helvetica, serif;
-    font-size: 40px;
-    text-align: center;
-    line-height: 80px;
+h1 {
+  font-family: Helvetica, serif;
+  font-size: 40px;
+  text-align: center;
+  line-height: 80px;
 }
-h2{
-    font-family: Helvetica, serif;
-    font-size: 20px;
-    color: lightslategray;
+h2 {
+  font-family: Helvetica, serif;
+  font-size: 20px;
+  color: lightslategray;
 }
-h3{
+h3 {
   font-family: Helvetica, serif;
   font-size: 20px !important;
   color: lightslategray;
   text-align: center;
 }
-h4{
-    font-size: 16px;
+h4 {
+  font-size: 16px;
 }
 /* top */
-.top_bkgrnd{
-    background: #fff no-repeat center;
-    min-height: 400px;
-    padding-top: 100px;
-    background-size: cover;
+.top_bkgrnd {
+  background: #fff no-repeat center;
+  min-height: 400px;
+  padding-top: 100px;
+  background-size: cover;
 }
-.top{
-    text-align:center;
-    font-family: Helvetica, serif;
-    font-size: 100px;
-    padding-top: 20px;
-    font-family: 'Covered By Your Grace', cursive;
+.top {
+  text-align: center;
+  font-family: Helvetica, serif;
+  font-size: 100px;
+  padding-top: 20px;
+  font-family: "Covered By Your Grace", cursive;
 }
-.icon{
-    background: url("src/me-icon.png") no-repeat right;
-    background-size: 200px 200px;
-    padding-top: 200px;
-    height: 200px;
-    width: 200px;
+.icon {
+  background: url("src/me-icon.png") no-repeat right;
+  background-size: 200px 200px;
+  padding-top: 200px;
+  height: 200px;
+  width: 200px;
 }
-.short_info{
+.short_info {
   font-family: Helvetica, serif;
   font-size: 15px;
   color: lightslategray;
@@ -50,105 +50,113 @@ h4{
   justify-content: center;
   align-items: center;
 }
-.short_info div{
+.short_info div {
   margin: 20px;
 }
-.short_info h2{
+.short_info h2 {
   font-size: 20px !important;
   color: #000;
 }
 
-.circle{
-    width: 150px;
-    height: 150px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 75px;
-    display: inline-block;
-    margin: 20px;
-    /* width and height can be anything, as long as they're equal */
+.circle {
+  width: 150px;
+  height: 150px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 75px;
+  display: inline-block;
+  margin: 20px;
+  /* width and height can be anything, as long as they're equal */
 }
-.circle > div > a{
-    color: #fff;
-    font-family: "Cuprum", serif;
-    font-size: 20px;
-    line-height: 150px;
-    cursor: pointer;
-    text-decoration: none;
-    visibility: hidden;
+.circle > div > a {
+  color: #fff;
+  font-family: "Cuprum", serif;
+  font-size: 20px;
+  line-height: 150px;
+  cursor: pointer;
+  text-decoration: none;
+  visibility: hidden;
 }
 
-.experience{
-    background: #BCECCC;
+.experience {
+  background: #bceccc;
 }
-.experience_icon{
-    background: url("src/icons/business.png") no-repeat center;
-    background-size: 50px 50px;
+.experience_icon {
+  background: url("src/icons/business.png") no-repeat center;
+  background-size: 50px 50px;
 }
-.education{
-    background: #8CDBD2;
+.education {
+  background: #8cdbd2;
 }
-.education_icon{
-    background: url("src/icons/student.png") no-repeat center;
-    background-size: 50px 50px;
+.education_icon {
+  background: url("src/icons/student.png") no-repeat center;
+  background-size: 50px 50px;
 }
-.skills{
-    background: #4BB0CE;
+.skills {
+  background: #4bb0ce;
 }
-.skills_icon{
-    background: url("src/icons/maintenance.png") no-repeat center;
-    background-size: 50px 50px;
+.skills_icon {
+  background: url("src/icons/maintenance.png") no-repeat center;
+  background-size: 50px 50px;
 }
-.other{
-    background: #2D54AB;
+.other {
+  background: #2d54ab;
 }
-.other_icon{
-    background: url("src/icons/paddling.png") no-repeat center;
-    background-size: 50px 50px;
+.other_icon {
+  background: url("src/icons/paddling.png") no-repeat center;
+  background-size: 50px 50px;
 }
-.contact{
-    background: #251B90;
+.contact {
+  background: #251b90;
 }
-.contact_icon{
-    background: url("src/icons/email.png") no-repeat center;
-    background-size: 50px 50px;
+.contact_icon {
+  background: url("src/icons/email.png") no-repeat center;
+  background-size: 50px 50px;
 }
-.experience_icon:hover > a, .education_icon:hover > a,  .skills_icon:hover > a, .other_icon:hover > a, .contact_icon:hover > a{
-    visibility: visible;
+.experience_icon:hover > a,
+.education_icon:hover > a,
+.skills_icon:hover > a,
+.other_icon:hover > a,
+.contact_icon:hover > a {
+  visibility: visible;
 }
-.experience_icon:hover, .education_icon:hover, .skills_icon:hover, .other_icon:hover, .contact_icon:hover{
-    background: transparent;
+.experience_icon:hover,
+.education_icon:hover,
+.skills_icon:hover,
+.other_icon:hover,
+.contact_icon:hover {
+  background: transparent;
 }
-.circles{
-    text-align: center;
+.circles {
+  text-align: center;
 }
 
 /* big parts */
 #experience {
-    text-align: center;
+  text-align: center;
 }
-#education{
+#education {
 }
-#volunteering{
+#volunteering {
 }
-#skills{
+#skills {
 }
-#other{
+#other {
 }
-#contact{
-    margin-bottom: 50px;
+#contact {
+  margin-bottom: 50px;
 }
 /* lists */
 ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
-ul > li{
-    padding-bottom: 10px;
+ul > li {
+  padding-bottom: 10px;
 }
 
 /* slider */
-.slider-base{
+.slider-base {
   border-bottom: 1px solid;
   height: 8px;
   margin-bottom: 9px;
@@ -156,75 +164,78 @@ ul > li{
   width: 50%;
   color: lightslategray;
 }
-.slider{
+.slider {
   height: 12px;
   background-color: lightgreen;
 }
-.slider.html{
+.slider.html {
   width: 90%;
 }
-.slider.css{
+.slider.css {
   width: 90%;
 }
-.slider.js{
+.slider.js {
   width: 70%;
 }
-.slider.angular{
+.slider.angular {
   width: 20%;
 }
-.slider.react{
+.slider.react {
   width: 50%;
 }
-.slider.relay{
+.slider.redux {
+  width: 30%;
+}
+.slider.relay {
   width: 20%;
 }
-.slider.git{
+.slider.git {
   width: 80%;
 }
-.slider.ramda{
+.slider.ramda {
   width: 60%;
 }
-.slider.responsive{
+.slider.responsive {
   width: 80%;
 }
-.slider.gulp{
+.slider.gulp {
   width: 50%;
 }
-.slider.npm{
+.slider.npm {
   width: 80%;
 }
-.slider.bower{
+.slider.bower {
   width: 80%;
 }
-.slider.protractor{
+.slider.protractor {
   width: 30%;
 }
-.slider.d3{
+.slider.d3 {
   width: 10%;
 }
-.slider.highcharts{
+.slider.highcharts {
   width: 80%;
 }
-.slider.wp{
+.slider.wp {
   width: 30%;
 }
-.slider.sap{
+.slider.sap {
   width: 10%;
 }
-.slider.java{
+.slider.java {
   width: 10%;
 }
-.slider.russian{
+.slider.russian {
   width: 100%;
 }
-.slider.german{
+.slider.german {
   width: 90%;
 }
-.slider.english{
+.slider.english {
   width: 80%;
 }
 
-.question{
+.question {
   font-size: 50px;
   line-height: 80px;
   color: lightslategray;
@@ -233,157 +244,157 @@ ul > li{
 }
 
 /* other */
-.photo{
+.photo {
   min-height: 110px;
   width: 100%;
 }
-.ultimate{
+.ultimate {
   background: url("src/frisbee_grey.png") no-repeat right;
   background-size: contain;
 }
-.guitar{
+.guitar {
   background: url("src/guitarist_grey.png") no-repeat right;
   background-size: contain;
 }
-.knit{
+.knit {
   background: url("src/knitter_grey.png") no-repeat right;
   background-size: contain;
 }
 /* tables */
-.left{
-    display: inline;
-    text-align: right;
+.left {
+  display: inline;
+  text-align: right;
 }
-.right{
-    display: inline;
-    text-align: left;
+.right {
+  display: inline;
+  text-align: left;
 }
-.email{
-    background: url("src/icons/new_post_filled.png") no-repeat left;
-    background-size: 30px 30px;
+.email {
+  background: url("src/icons/new_post_filled.png") no-repeat left;
+  background-size: 30px 30px;
 }
-.telegram{
-    background: url("src/icons/paper_plane 3.png") no-repeat left;
-    background-size: 30px 30px;
+.telegram {
+  background: url("src/icons/paper_plane 3.png") no-repeat left;
+  background-size: 30px 30px;
 }
-.facebook{
-    background: url("src/icons/facebook.png") no-repeat left;
-    background-size: 30px 30px;
+.facebook {
+  background: url("src/icons/facebook.png") no-repeat left;
+  background-size: 30px 30px;
 }
-.linkedin{
-    background: url("src/icons/linkedin.png") no-repeat left;
-    background-size: 30px 30px;
+.linkedin {
+  background: url("src/icons/linkedin.png") no-repeat left;
+  background-size: 30px 30px;
 }
-.instagram{
-    background: url("src/icons/instagram.png") no-repeat left;
-    background-size: 30px 30px;
+.instagram {
+  background: url("src/icons/instagram.png") no-repeat left;
+  background-size: 30px 30px;
 }
-.twitter{
-    background: url("src/icons/twitter.png") no-repeat left;
-    background-size: 30px 30px;
+.twitter {
+  background: url("src/icons/twitter.png") no-repeat left;
+  background-size: 30px 30px;
 }
-.contact_info{
-    text-align: center;
-    height: 150px;
+.contact_info {
+  text-align: center;
+  height: 150px;
 }
-.contact_info_icon{
-    display: inline-block;
-    margin: 15px;
-    height: 30px;
-    width: 30px;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+.contact_info_icon {
+  display: inline-block;
+  margin: 15px;
+  height: 30px;
+  width: 30px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
-.contact_info_icon:hover{
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
-
-#footer{
-    text-align: center;
-    margin-bottom: 30px;
-    font-Family: Helvetica, serif;
-    font-size: 14px;
-    color: lightslategray;
-
+.contact_info_icon:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
-.short_info_mobile.icon{
+#footer {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Helvetica, serif;
+  font-size: 14px;
+  color: lightslategray;
+}
+
+.short_info_mobile.icon {
   display: none;
 }
 
 /* big screens */
-@media all and (min-width: 950px){
-  .short_info .left{
+@media all and (min-width: 950px) {
+  .short_info .left {
     height: 240px;
     padding: 20px;
     min-width: 270px;
   }
-  .short_info .right{
+  .short_info .right {
     height: 240px;
     padding: 20px;
     min-width: 270px;
   }
 }
 /* small screens */
-@media all and (max-width: 450px){
-  .short_info{
+@media all and (max-width: 450px) {
+  .short_info {
     display: none;
   }
-  .short_info_mobile.icon{
+  .short_info_mobile.icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 }
-@media all and (max-width: 950px){
-    #experience,
-    #education,
-    #skills,
-    #volunteering,
-    #other,
-    #contact{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    #experience > h1{
-      background: #BCE0F0;
-      color: #fff;
-    }
-    #education > h1{
-      background: #8CDBD2;
-      color: #fff;
-    }
-    #volunteering > h1{
-      background: #4BB0B0;
-      color: #fff;
-    }
-    #skills > h1{
-      background: #4BB0CE;
-      color: #fff;
-    }
-    #other > h1{
-      background: #2D54AB;
-      color: #fff;
-    }
-    #contact > h1{
-      background: #251B90;
-      color: #fff;
-      margin-bottom: 50px;
-    }
-    h2, h3{
-        font-size: 15px;
-    }
-    h1{
-        font-size: 30px;
-    }
-    .circles{
-        display: none;
-    }
-    .short_info{
-      height: 240px;
-      padding: 20px;
-    }
+@media all and (max-width: 950px) {
+  #experience,
+  #education,
+  #skills,
+  #volunteering,
+  #other,
+  #contact {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #experience > h1 {
+    background: #bce0f0;
+    color: #fff;
+  }
+  #education > h1 {
+    background: #8cdbd2;
+    color: #fff;
+  }
+  #volunteering > h1 {
+    background: #4bb0b0;
+    color: #fff;
+  }
+  #skills > h1 {
+    background: #4bb0ce;
+    color: #fff;
+  }
+  #other > h1 {
+    background: #2d54ab;
+    color: #fff;
+  }
+  #contact > h1 {
+    background: #251b90;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  h2,
+  h3 {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .circles {
+    display: none;
+  }
+  .short_info {
+    height: 240px;
+    padding: 20px;
+  }
 }
