@@ -187,7 +187,13 @@ ul > li {
   width: 30%;
 }
 .slider.relay {
+  width: 30%;
+}
+.slider.webpack {
   width: 20%;
+}
+.slider.jest {
+  width: 50%;
 }
 .slider.git {
   width: 80%;
