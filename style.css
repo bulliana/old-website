@@ -192,6 +192,9 @@ ul > li {
 .slider.webpack {
   width: 20%;
 }
+.slider.jest {
+  width: 50%;
+}
 .slider.git {
   width: 80%;
 }
